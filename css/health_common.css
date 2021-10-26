@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+/*main start*/
+#notice_main {
+  padding: 84px 50px 0 50px;
+}
+
+#notice_img {
+  background-image: url(../img/sv03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1820px;
+  height: 302px;
+  margin-bottom: 80px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.notice_title {
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+}
+
+.notice_title > h2 {
+  font-size: 50px;
+  line-height: 1.48;
+  color: #fff;
+  font-weight: 400;
+}
+
+.notice_title > p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.4;
+}
+
+/*notice_sec2 start*/
+#notice_sec2 {
+  margin: auto;
+  max-width: 1500px;
+  padding-bottom: 80px;
+}
+
+.sec2_title {
+  margin-bottom: 70px;
+}
+
+.sec2_title > span {
+  font-weight: bold;
+}
+
+.sec2_title > span::before {
+  display: inline-block;
+  margin: 0 30px 5px 0;
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #333;
+}
+
+/*notice_search_wrap start*/
+select {
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 2px;
+  font-size: 13px;
+  max-width: 100%;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #666;
+  margin-right: 7px;
+}
+
+.notice_search_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.notice_search > input {
+  outline: none;
+  width: 220px;
+  padding: 0 9px;
+  height: 40px;
+  font-size: 13px;
+  line-height: 40px;
+  color: #333;
+  border: 1px #ccc solid;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.notice_search > button {
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  min-width: 80px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0 9px;
+  cursor: pointer;
+  vertical-align: middle;
+  border-radius: 2px;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.notice_search > button:hover {
+  border: 1px solid #333;
+}
+
+/*figure_wrap start*/
+.figure_wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.figure_wrap > figure {
+  padding-top: 45px;
+  width: 23%;
+  cursor: pointer;
+}
+
+.figure_wrap > figure > div {
+  width: 100%;
+}
+
+.figure_wrap > figure > div > img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+figcaption > p {
+  padding: 15px 0 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+figcaption > img{
+  width: 11px;
+  height: 11px;
+}
+
+/*page_num start*/
+.page_num {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.page_num > ul {
+  display: flex;
+}
+
+.page_num > ul > li {
+  min-width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.page_num > ul > li > a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #646464;
+  vertical-align: middle;
+}
+
+.hover_radius:hover {
+  color: #333;
+  border-color: #999;
+  background-color: #eee;
+}
+
+.page_num > ul > li:first-child > a {
+  color: #ee7399 !important;
+  font-weight: bold;
+}
+
+.next {
+  border: 1px solid #dcdcdc;
+  margin-left: 10px;
+}
+
+.next > a > img {
+  vertical-align: 1px;
+}
+
+/*main position -84 때문에 바닥이 84px 떠있음*/
+@media only screen and (max-width: 1250px) {
+  #notice_main {
+    padding: 84px 30px 0 30px;
+  }
+
+  #notice_img {
+    margin-bottom: 70px;
+    background-position: 80% center;
+  }
+
+  .figure_wrap > figure {
+    width: 32.5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #notice_main {
+    padding: 84px 15px 0 15px;
+  }
+
+  #notice_img {
+    max-width: 726px;
+    height: 170px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+  }
+
+  .notice_title {
+    left: 20px;
+    bottom: 30px;
+  }
+
+  .notice_title > h2 {
+    font-size: 24px;
+    line-height: 1.48;
+  }
+
+  .notice_title > p {
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  .sec2_title {
+    margin-bottom: 30px;
+  }
+
+  .sec2_title > span {
+    font-size: 14px;
+  }
+
+  .sec2_title > span::before {
+    margin: 0 10px 5px 0;
+    width: 25px;
+  }
+
+  .figure_wrap > figure {
+    width: 49%;
+  }
+
+  .notice_search_wrap {
+    justify-content: space-between;
+  }
+
+  .notice_search>input {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .figure_wrap > figure {
+    width: 100%;
+  }
+  
+  .notice_search>input {
+    width: 100px;
+    transition: width 0.3s;
+  }
+}

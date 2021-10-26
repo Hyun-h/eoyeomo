@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/notice.css">
+</head>
+<body>
+    <div id="header_top">
+        <ul>
+            <li>
+                <a href="#">로그인</a> |
+            </li>
+            <li>
+                <a href="#" class="mypage_icon"></a> |
+            </li>
+            <li class="cart">
+                <a href="#">
+                    <span class="cart_count">0</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <header>
+        <h1>
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </h1>
+        <nav>
+            <ul class="gnb"> <!--global nav btn / lnb : local nav btn-->
+                <li>
+                    <a href="greeting.html">어여모 소개</a>
+                    <ul class="gnb_list">
+                        <li>
+                            <a href="greeting.html">인사말</a>
+                        </li>
+                        <li>
+                            <a href="#">비전&미션</a>
+                        </li>
+                        <li>
+                            <a href="#">CI 소개</a>
+                        </li>
+                        <li>
+                            <a href="#">오시는 길</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="notice.html">어여모 소식</a>
+                    <ul class="gnb_list">
+                        <li>
+                            <a href="notice.html">공지사항</a>
+                        </li>
+                        <li>
+                            <a href="#">활동소식</a>
+                        </li>
+                        <li>
+                            <a href="#">이벤트</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="health_common.html">건강백서</a>
+                    <ul class="gnb_list">
+                        <li>
+                            <a href="health_common.html">건강상식</a>
+                        </li>
+                        <li>
+                            <a href="#">건강정보TV</a>
+                        </li>
+                        <li>
+                            <a href="#">매거진</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">교육센터</a>
+                    <ul class="gnb_list">
+                        <li>
+                            <a href="#">LIVE 교육신청</a>
+                        </li>
+                        <li>
+                            <a href="#">동영상 교육</a>
+                        </li>
+                        <li>
+                            <a href="#">-소아</a>
+                        </li>
+                        <li>
+                            <a href="#">-여성</a>
+                        </li>
+                        <li>
+                            <a href="#">-영양</a>
+                        </li>
+                        <li>
+                            <a href="#">-질병/약</a>
+                        </li>
+                        <li>
+                            <a href="#">-노인</a>
+                        </li>
+                        <li>
+                            <a href="#">-약국경영</a>
+                        </li>
+                        <li>
+                            <a href="#">-제품</a>
+                        </li>
+                        <li>
+                            <a href="#">교육 오디오 클립</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">학술정보센터</a>
+                    <ul class="gnb_list">
+                        <li>
+                            <a href="#">학술 FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">어여모 지식iN</a>
+                        </li>
+                        <li>
+                            <a href="#">전문자료</a>
+                        </li>
+                        <li>
+                            <a href="#">어여모 원페이지</a>
+                        </li>
+                        <li>
+                            <a href="#">어여모 원페이지 미니</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">커뮤니티</a>
+                    <ul class="gnb_list">
+                        <li>
+                            <a href="#">약사끼리 물어보세요</a>
+                        </li>
+                        <li>
+                            <a href="#">약사끼리 묻고답하기</a>
+                        </li>
+                        <li>
+                            <a href="#">약사끼리 구인/구직</a>
+                        </li>
+                        <li>
+                            <a href="#">약사끼리 사고팔고</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="service.html">고객센터</a>
+                    <ul class="gnb_list">
+                        <li>
+                            <a href="service.html">회원가입 및 유형안내</a>
+                        </li>
+                        <li>
+                            <a href="#">정회원 신청 및 혜택</a>
+                        </li>
+                        <li>
+                            <a href="#">약사회원인증</a>
+                        </li>
+                        <li>
+                            <a href="#">1:1문의</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="mall">
+                <li><a href="#">어여모몰</a></li>
+                <li><a href="#">사업자몰</a></li>
+            </ul>
+            <div class="kakao_btn">
+                <a href="#">
+                    <img src="img/header_kakao.png" alt="kakao">
+                </a>
+            </div>
+            <div class="ham_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="notice_main">
+        <section id="notice_img">
+            <div class="notice_title">
+                <h2>공지사항</h2>
+                <p>생명존중의 가치를 전하는 어여모입니다</p>
+            </div>
+        </section>
+
+        <section id="notice_sec2">
+            <div class="sec2_title"><span>공지사항</span></div>
+            <form action="#">
+                <div class="notice_search">
+                    <input type="text" placeholder="제목, 내용">
+                    <button type="submit">검색</button>
+                </div>
+            </form>
+            <article id="notice_table_wrap">
+                <ul class="thead">
+                    <li style="width: 60px;">번호</li>
+                    <li>제목</li>
+                    <li style="width: 100px;">등록일</li>
+                    <li style="width: 45px;">조회</li>
+                </ul>
+                <ul class="tbody notice">
+                    <li>
+                        <span class="notice768_txt">공지</span>
+                        <img src="img/icon_notice.gif" alt="공지">
+                    </li>
+                    <li class="subject">
+                        <a href="">
+					        【어여모 웹심포】면역과 성장을 위한 건강솔루션
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.08.26
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        255
+                    </li>
+                </ul>
+                <ul class="tbody notice">
+                    <li>
+                        <span class="notice768_txt">공지</span>
+                        <img src="img/icon_notice.gif" alt="공지">
+                    </li>
+                    <li class="subject">
+                        <a href="">
+                            【어여모 전문교육】제7기 임산부상담 전문약사과정 신청 안내                      
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.08.20
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        1449
+                    </li>
+                </ul>
+                <ul class="tbody notice">
+                    <li>
+                        <span class="notice768_txt">공지</span>
+                        <img src="img/icon_notice.gif" alt="공지">
+                    </li>
+                    <li class="subject">
+                        <a href="">
+                            어여모『보냉 약파우치』출시                      
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.07.23
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        311
+                    </li>
+                </ul>
+                <ul class="tbody notice">
+                    <li>
+                        <span class="notice768_txt">공지</span>
+                        <img src="img/icon_notice.gif" alt="공지">
+                    </li>
+                    <li class="subject">
+                        <a href="">
+                            『어여모 약국전용 어린이 멀티 비타민 출시』
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.05.20
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        3160
+                    </li>
+                </ul>
+                <ul class="tbody notice">
+                    <li>
+                        <span class="notice768_txt">공지</span>
+                        <img src="img/icon_notice.gif" alt="공지">
+                    </li>
+                    <li class="subject">
+                        <a href="">   
+					        어여모 원페이지 운영 기준 변경 안내문
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.02.24
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        234
+                    </li>
+                </ul>
+                <ul class="tbody notice">
+                    <li>
+                        <span class="notice768_txt">공지</span>
+                        <img src="img/icon_notice.gif" alt="공지">
+                    </li>
+                    <li class="subject">
+                        <a href="">
+                            마스크 미 착용시 과태료 부과 안내 POP 다운로드 하세요
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2020.11.17
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        688
+                    </li>
+                </ul>
+                <ul class="tbody notice">
+                    <li>
+                        <span class="notice768_txt">공지</span>
+                        <img src="img/icon_notice.gif" alt="공지">
+                    </li>
+                    <li class="subject">
+                        <a href="">
+                            어여모정회원에 대해 자주하는 질문 (FAQ)
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2020.06.12
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        1315
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        95
+                    </li>
+                    <li class="subject">
+                        <a href="">
+					        【어여모 웹심포】면역과 성장을 위한 건강솔루션
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.08.26
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        255
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        94
+                    </li>
+                    <li class="subject">
+                        <a href="">
+					        『프로비타포유 출시 기념 무료배송 이벤트』
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.08.25
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        255
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        93
+                    </li>
+                    <li class="subject">
+                        <a href="">   
+					        【어여모 전문교육】제7기 임산부상담 전문약사과정 신청 안내
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.08.20
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        1449
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        92
+                    </li>
+                    <li class="subject">
+                        <a href="">
+				    	 【어여모웹심포】활력을 위한 상담 솔루션 신청접수안내 - [종료]
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.08.10
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        659
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        91
+                    </li>
+                    <li class="subject">
+                        <a href="">  
+					        어여모『보냉 약파우치』출시
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.07.23
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        311
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        90
+                    </li>
+                    <li class="subject">
+                        <a href="">
+				    	 【어여모 웹심포】상처&흉터 약국상담가이드 - [종료]
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.07.16
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        942
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        89
+                    </li>
+                    <li class="subject">
+                        <a href="">
+		    			 【이벤트】프로비타포키즈 샘플 체험후기 이벤트! (~07/18) - [종료]
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.07.06
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        232
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        88
+                    </li>
+                    <li class="subject">
+                        <a href=""> 
+				    	 【이벤트】어여모와 매일유업이 함께하는『셀렉스』이벤트 - [종료]
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.07.02
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        251
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        87
+                    </li>
+                    <li class="subject">
+                        <a href="">
+				    	 【어여모 웹심포】근감소 예방을 위한 영양관리 및 셀렉스 소개 웹심포 - [종료]
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.06.24
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        479
+                    </li>
+                </ul>
+                <ul class="tbody">
+                    <li class="tbody_board_num_768">
+                        86
+                    </li>
+                    <li class="subject">
+                        <a href="">
+                             【어여모 웹심포】프로비타 포키즈 런칭 어여모 웹심포 - [종료]
+                            <img src="img/icon_hot.gif" alt="사진 아이콘">
+                            <img src="img/icon_img.gif" alt="새로운 게시판 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        2021.06.01
+                    </li>
+                    <li>
+                        <span>조회: </span>
+                        883
+                    </li>
+                </ul>
+            </article>
+            <div class="page_num">
+                <ul>
+                    <li>
+                        <a href="">
+                            1
+                        </a>
+                    </li>
+                    <li class="hover_radius">
+                        <a href="">
+                            2
+                        </a>
+                    </li>
+                    <li class="hover_radius">
+                        <a href="">
+                            3
+                        </a>
+                    </li>
+                    <li class="hover_radius">
+                        <a href="">
+                            4
+                        </a>
+                    </li>
+                    <li class="next">
+                        <a href="">
+                            <img src="img/icon_paging_next.png" alt="다음 버튼">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h1>
+            <a href="#">
+                <img src="img/f_logo.png">
+            </a>
+        </h1>
+        <address>
+            <p>사업자등록번호 : 175-86-00797 <a href="#">[사업자정보확인]</a> /</p>
+            <p>대표자 : 장혜진 / </p>
+            <p>주소 : 경기도 용인시 기흥구 흥덕중앙로 120 (UTOWER) 1층 120호</p>
+            <p>대표전화 : 031-214-6775 /</p>
+            <p>팩스 : 031-214-6775</p>
+        </address>
+        <div class="sns_wrap">
+            <ul class="sns">
+                <li><a href=""><img src="img/footer_icon_insta.png" alt=""></a></li>
+                <li><a href=""><img src="img/footer_icon_Facebook.png" alt=""></a></li>
+                <li><a href=""><img src="img/footer_icon_youtube.png" alt=""></a></li>
+                <li><a href=""><img src="img/footer_icon_blog.png" alt=""></a></li>
+            </ul>
+            <div class="f_menu_rigit">
+                <div>
+                    <ul class="f_menu">
+                        <li><a href="">회원가입</a>|</li>
+                        <li><a href="">제휴문의</a>|</li>
+                        <li><a href="">이용약관</a>|</li>
+                        <li><a href="">개인정보취급방침</a></li>
+                    </ul>
+                    <p class="copy_R">Copyrights ⓒ 2020<span>어여모</span>. Corporation All rights reserved.</p>
+                </div>
+                <div class="kcp">
+                    <a href="#">
+                        <img src="img/kcp.png" alt="kcp logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/header_footer.js"></script>
+</body>
+</html>

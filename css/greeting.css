@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+/*main start*/
+#greeting_main {
+    padding: 84px 50px 0 50px;
+}
+
+#greeting_img {
+    background-image: url(../img/sv01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1820px;
+    height: 302px;
+    margin-bottom: 80px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.greeting_title {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+
+.greeting_title > h2 {
+    font-size: 50px;
+    line-height: 1.48;
+    color: #fff;
+    font-weight: 400;
+}
+
+.greeting_title > p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+/*greeting_sec2 start*/
+#greeting_sec2 {
+    margin: auto;
+    max-width: 1600px;
+    padding: 0 40px 80px;
+}
+
+.sec2_title {
+    margin-bottom: 70px;
+}
+
+.sec2_title > span {
+    font-weight: bold;
+}
+
+.sec2_title > span::before {
+    display: inline-block;
+    margin: 0 30px 5px 0;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #333;
+}
+
+/*greeting_sec2 > article start*/
+#greeting_sec2 > article {
+    display: flex;
+}
+
+.greeting_left {
+    width: 50%;
+    padding-right: 25px;
+}
+
+.greeting_right {
+    background-image: url(../img/img_ceo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    width: 831px;
+    height: 1078px;
+}
+
+.left_txt_box {
+    margin-bottom: 80px;
+}
+
+.left_txt_box > h3 {
+    font-size: 54px;
+    line-height: 1.44;
+    font-weight: bold;
+    color: #fea4c0;
+    word-break: keep-all;
+    margin-bottom: 40px;
+}
+
+.left_txt_box > span{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #999;
+}
+
+.greeting_left {
+    margin-right: 100px;
+}
+
+.greeting_left > p {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #333;
+}
+
+.greeting_left > p > em {
+    color: #0076ff
+}
+
+/*sign_box start*/
+.sign_box1 {
+    margin-top: 100px;
+}
+
+.sign_box1 > span,
+.sign_box2 > span {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.73;
+    letter-spacing: 1.5px;
+    color: #c6e1f2;
+    margin-bottom: 21px;
+}
+
+.sign_box2 {
+    visibility:hidden;
+}
+
+@media only screen and (max-width: 1250px){
+    #greeting_main {
+        padding: 84px 30px 0 30px;
+    }
+
+    #greeting_img {
+        margin-bottom: 70px;
+        background-position: 80% center;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    #greeting_main {
+        padding: 84px 15px 0 15px;
+    }
+
+    #greeting_img {
+        max-width: 726px;
+        height: 170px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+
+
+    .greeting_title {
+        left: 20px;
+        bottom: 30px;
+    }
+
+    .greeting_title > h2 {
+        font-size: 24px;
+        line-height: 1.48;
+    }
+
+    .greeting_title > p {
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+    #greeting_sec2 {
+        padding: 0;
+    }
+
+    #greeting_sec2 > article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sec2_title {
+        margin-bottom: 30px;
+    }
+
+    .sec2_title > span {
+        font-size: 14px;
+    }
+    
+    .sec2_title > span::before {
+        margin: 0 10px 5px 0;
+        width: 25px;
+    }
+
+    .greeting_left {
+        width: 100%;
+        padding: 0;
+        margin-bottom: -250px;
+    }
+
+    .left_txt_box {
+        margin-bottom: 40px;
+    }
+
+    .left_txt_box > h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .left_txt_box > span{
+        font-size: 15px;
+    }
+
+    .greeting_left {
+        margin-right: 0px;
+    }
+
+    .greeting_left > p {
+        font-size: 14px;
+        margin: 0 0 20px 0;
+    }
+
+    .greeting_right {
+        background-size: contain;
+        background-position: center top;
+        width: 100%;
+        height: 478px;
+    }
+
+    .sign_box1 {
+        visibility: hidden;
+    }
+
+    .sign_box2 {
+        visibility:visible;
+    }
+
+    .sign_box2 > span {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .sign_box2 > img {
+        height: 30px;
+    }
+}
